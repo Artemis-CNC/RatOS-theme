@@ -166,6 +166,14 @@
 						"showInStandby": true,
 						"showInPrinting": true,
 						"showInPause": true
+					},
+					{
+						"pos": 5,
+						"name": "GIT_BACKUP",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
 					}
 				]
 			},
