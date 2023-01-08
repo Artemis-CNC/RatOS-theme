@@ -1,5 +1,5 @@
 {
-	"general": { "displayZOffsetStandby": true, "displayCancelPrint": true, "printername": "RatOS" },
+	"general": { "displayZOffsetStandby": true, "displayCancelPrint": true, "printername": "HevOS" },
 	"control": { "extruder": { "feedamount": 50, "feedrate": 5 }, "style": "cross", "selectedCrossStep": 3 },
 	"dashboard": {
 		"control": { "useCross": true },
@@ -158,6 +158,22 @@
 						"showInStandby": true,
 						"showInPrinting": false,
 						"showInPause": false
+					},
+					{
+						"pos": 4,
+						"name": "MEASURE_COREXY_BELT_TENSION",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
+					},
+					{
+						"pos": 5,
+						"name": "GIT_BACKUP",
+						"color": "group",
+						"showInStandby": true,
+						"showInPrinting": true,
+						"showInPause": true
 					}
 				]
 			},
@@ -171,23 +187,7 @@
 				"macros": [
 					{
 						"pos": 1,
-						"name": "INSTALL_VCORE_PRO_CONFIG",
-						"color": "group",
-						"showInStandby": true,
-						"showInPrinting": true,
-						"showInPause": true
-					},
-					{
-						"pos": 2,
-						"name": "INSTALL_VCORE_THREE_CONFIG",
-						"color": "group",
-						"showInStandby": true,
-						"showInPrinting": true,
-						"showInPause": true
-					},
-					{
-						"pos": 3,
-						"name": "INSTALL_VMINION_CONFIG",
+						"name": "INSTALL_HEVO_CONFIG",
 						"color": "group",
 						"showInStandby": true,
 						"showInPrinting": true,
